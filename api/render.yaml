@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: carpet-cleaning-calculator-admin
+    runtime: python
+    rootDir: api
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
