@@ -1,0 +1,5 @@
+services:
+  - type: web
+    name: carpet-cleaning-calculator
+    runtime: static
+    staticPublishPath: .
